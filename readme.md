@@ -1,10 +1,6 @@
-# Pico Template
+# PicoHaDashboard
 
-A simple C/C++ template for the Raspberry Pi pico using cmake.
-
-[CLion](https://www.jetbrains.com/clion/) works great as an IDE.
-
-Was made with help from the [Getting Started guide](https://datasheets.raspberrypi.org/pico/getting_started_with_pico.pdf)
+A Pico W project with eink display to display Home Assistant information
 
 # Requirements
 ### MacOS
@@ -13,17 +9,6 @@ Was made with help from the [Getting Started guide](https://datasheets.raspberry
 brew tap ArmMbed/homebrew-formulae
 brew install arm-none-eabi-gcc cmake ninja
 ```
-
-### Debian/Ubuntu
-
-```bash
-sudo apt update
-sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential ninja-build
-```
-
-### Windows
-
-[Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install) can be used to run Ubuntu.
 
 # Setup
 
